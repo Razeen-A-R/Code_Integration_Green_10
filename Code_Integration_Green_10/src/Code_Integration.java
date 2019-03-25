@@ -50,7 +50,7 @@ public class Code_Integration {
 				//Uncomment the next two lines if you have not made a GUI
 				//Component frame = null;	//Create an empty frame
 				//JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
-				//add your class.method here to start your program
+				task2.picasso.Picasso.main(null);
 			}
 		});
 	}
