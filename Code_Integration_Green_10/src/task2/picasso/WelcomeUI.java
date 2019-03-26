@@ -13,6 +13,7 @@ import edu.cmu.ri.createlab.terk.robot.finch.Finch;
  */
 public class WelcomeUI extends javax.swing.JFrame {
 
+
     /**
      * Creates new form WelcomeUIV2
      */
@@ -134,6 +135,7 @@ public class WelcomeUI extends javax.swing.JFrame {
             WelcomeWrongUI.main(null);
         } else {
             myf.quit();
+            dispose();
             StartgameUI.main(null);
         }
     }//GEN-LAST:event_jButton1ActionPerformed

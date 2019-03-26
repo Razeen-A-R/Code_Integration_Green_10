@@ -10,6 +10,7 @@ import java.awt.Color;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import task2.picasso.WelcomeUI;
 
 /**
  *
@@ -243,9 +244,13 @@ public class StartgameUI extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         try {
             // TODO add your handling code here:
-            Quitmethod.quitfunction();
-            System.exit(0);
+            if (TriangleMethods.tricount!=0||RectangleMethods.reccount!=0)
+                Quitmethod.quitfunction();
+            dispose();
+            
         } catch (IOException ex) {
+            Logger.getLogger(StartgameUI.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IndexOutOfBoundsException ex) {
             Logger.getLogger(StartgameUI.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButton2ActionPerformed

@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 import java.util.ArrayList;
-public class FinchLight {
+public class T1_main {
 	private static Finch myFinch = null;
 	
 	public static int MaxLightSensor;

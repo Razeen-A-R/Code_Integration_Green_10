@@ -67,7 +67,7 @@ public class Code_Integration {
 				Component frame = null;	//Create an empty frame
 				JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
 				//add your class.method here to start your program
-				T3_main.FinchCourswork.main;
+				T3_main.FinchCourswork.main(null);
 			}
 		});
 	}
