@@ -1,4 +1,4 @@
-
+package search_for_light;
 import java.util.Scanner;
 
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;

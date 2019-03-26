@@ -1,3 +1,4 @@
+package zigzag;
 import java.awt.Component;
 import java.util.Random;
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;

@@ -1,3 +1,4 @@
+package zigzag;
 import java.awt.Component;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;

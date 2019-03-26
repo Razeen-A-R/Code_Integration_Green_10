@@ -1,3 +1,4 @@
+package navigate;
 import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
 import java.util.Stack; // for the stacks
@@ -12,7 +13,7 @@ import java.util.logging.SimpleFormatter;
 public class T3_main {
 
 	
-	public static void main(String[] args) throws SecurityException, IOException {    //the ioexception is for the logging of the 
+	public T3_main(){    //the ioexception is for the logging of the 
 		
 		
         Finch myfinch = new Finch();
@@ -402,24 +403,9 @@ public class T3_main {
          	scan.next().charAt(0);
        			
        		myfinch.quit();
-       		
-       		
-       	 // here is the logger, i was unable to get it working however i have made an attempt, 
-       		Logger logger = Logger.getLogger("MyLog");  
-         FileHandler fh;  
-         
-         if(ccmmand == 'w') {
-         
-         
-
-         	 fh = new FileHandler("H:/Desktop/MyLogFile.log");  
-             logger.addHandler(fh);
-             SimpleFormatter formatter = new SimpleFormatter();  
-             fh.setFormatter(formatter);  
              
  
        		}
        		
      
-}
 }
