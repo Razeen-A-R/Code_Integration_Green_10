@@ -1,11 +1,9 @@
 package integration;
 import javax.swing.*;
-
 import navigate.T3_main;
 import search_for_light.T1_main;
 import tilit_control.T7_main;
 import zigzag.T4_main;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
