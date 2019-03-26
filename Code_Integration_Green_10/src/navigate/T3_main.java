@@ -13,7 +13,7 @@ import java.util.logging.SimpleFormatter;
 public class T3_main {
 
 	
-	public T3_main(){    //the ioexception is for the logging of the 
+	public T3_main(){    //the ioexception is for the logging of the s
 		
 		
         Finch myfinch = new Finch();

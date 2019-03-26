@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class T4_main{
-	public T4_main() {		//Constructor to set up components for GUI
+	public T4_main() {		//Constructor to set up components for GUIs
 		frame();	//Calling the method frame
 	}
 	

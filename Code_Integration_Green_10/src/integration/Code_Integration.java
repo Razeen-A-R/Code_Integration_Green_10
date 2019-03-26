@@ -81,7 +81,7 @@ public class Code_Integration {
 		GUI.add(task_4);	//Adding the button "task_4" to the frame "GUI"
 		task_5_button(GUI);	//Passing the variable "GUI" to the method task_5_button
 		task_4.addActionListener(new ActionListener() {	//Checking if the button "task_4" is clicked
-			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
+			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the buttons
 				new T4_main();
 			}
 		});
