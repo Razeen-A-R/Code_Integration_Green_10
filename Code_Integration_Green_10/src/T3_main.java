@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 
-public class FinchCoursework {
+public class T3_main {
 
 	
 	public static void main(String[] args) throws SecurityException, IOException {    //the ioexception is for the logging of the 

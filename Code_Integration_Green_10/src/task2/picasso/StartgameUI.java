@@ -244,7 +244,7 @@ public class StartgameUI extends javax.swing.JFrame {
         try {
             // TODO add your handling code here:
             Quitmethod.quitfunction();
-            System.exit(0);
+            dispose();
         } catch (IOException ex) {
             Logger.getLogger(StartgameUI.class.getName()).log(Level.SEVERE, null, ex);
         }
