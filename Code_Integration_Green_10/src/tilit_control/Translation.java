@@ -14,7 +14,7 @@ public class Translation extends T7_main {
  static int R = (int) ((Math.random() * ((-255 + 10) + 1)) + 10);//randomises the backward motion
  public static void decisions(int translate) {
   myfinch.setLED(0, 255, 0);//sets LED to green
-  if (translate == 0) {//all instructions for the different inputss
+  if (translate == 0) {//all instructions for the different inputs
    myfinch.setWheelVelocities(F, F, 500);
    myfinch.sleep(500);
    System.out.println("Finch moves forward");

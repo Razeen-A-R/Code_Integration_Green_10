@@ -42,7 +42,7 @@ public class T7_main {
 }
   myfinch.buzz(100, 500);//first beep
   myfinch.sleep(1000);//break in-between
-  myfinch.buzz(100, 500);//second beep this marks the end of the translations
+  myfinch.buzz(100, 500);//second beep this marks the end of the translation
   
  }
  if(myfinch.isFinchLevel()==false){
