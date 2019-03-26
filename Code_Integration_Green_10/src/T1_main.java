@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 public class T1_main {
 	private static Finch myFinch = null;
 	
@@ -26,7 +28,11 @@ public class T1_main {
 		myFinch = new Finch();
 
 		MinLightSensor = getMinLightSensor();
-		finchstart();
+            try {
+                finchstart();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(T1_main.class.getName()).log(Level.SEVERE, null, ex);
+            }
 		
 	}
 	public static int getRightLightSensor() {
