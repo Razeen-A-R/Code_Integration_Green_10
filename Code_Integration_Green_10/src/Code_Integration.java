@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 public class Code_Integration {
 	public static void code_integration() {	//Constructor to set up components for GUI
 		window();	//Calling the method frame
@@ -30,11 +32,8 @@ public class Code_Integration {
 		GUI.add(task_1);	//Adding the button "task_1" to the frame "GUI"
 		task_2_button(GUI);	//Passing the variable "GUI" to the method task_2_button
 		task_1.addActionListener(new ActionListener() {	//Checking if the button "task_1" is clicked
-			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
-				//Uncomment the next two lines if you have not made a GUI
-				//Component frame = null;	//Create an empty frame
-				//JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
-				//add your class.method here to start your program
+			public void actionPerformed(ActionEvent arg0) {	
+                           T1_main.main(null);
 			}
 		});
 	}
