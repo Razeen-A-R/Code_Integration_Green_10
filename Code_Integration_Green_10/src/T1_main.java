@@ -18,7 +18,7 @@ public class FinchLight {
 	public static int LightSensorLeft;
 	public static int LightSensorRight;
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		
 		long start_time = System.currentTimeMillis();
 		TStart.add(start_time);
