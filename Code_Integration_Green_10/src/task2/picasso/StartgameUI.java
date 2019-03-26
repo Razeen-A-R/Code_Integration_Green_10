@@ -10,6 +10,7 @@ import java.awt.Color;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import task2.picasso.WelcomeUI;
 
 /**
  *
@@ -246,6 +247,7 @@ public class StartgameUI extends javax.swing.JFrame {
             if (TriangleMethods.tricount!=0||RectangleMethods.reccount!=0)
                 Quitmethod.quitfunction();
             dispose();
+            
         } catch (IOException ex) {
             Logger.getLogger(StartgameUI.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IndexOutOfBoundsException ex) {
