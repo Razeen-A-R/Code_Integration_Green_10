@@ -42,6 +42,6 @@ public class RecordTilt extends T7_main {
    System.out.println("Finch Is Level");
    break;
   }
-  recording.add(finchtilt);//adds tilts to the arraylist
+  recording.add(finchtilt);//adds tilts to the arraylists
  }
 }
