@@ -64,9 +64,10 @@ public class Code_Integration {
 		task_3.addActionListener(new ActionListener() {	//Checking if the button "task_3" is clicked
 			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
 				//Uncomment the next two lines if you have not made a GUI
-				//Component frame = null;	//Create an empty frame
-				//JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
+				Component frame = null;	//Create an empty frame
+				JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
 				//add your class.method here to start your program
+				T3_main.FinchCourswork.main;
 			}
 		});
 	}
