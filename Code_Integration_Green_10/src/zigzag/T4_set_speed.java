@@ -1,9 +1,10 @@
+package zigzag;
 import java.awt.Component;
 import java.util.Random;
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 import javax.swing.JOptionPane;
 public class T4_set_speed {
-	public T4_set_speed(int length, int num_of_sections) {	//Class constructor to receive the variables "length" and "num_of_sections" from the class main
+	public T4_set_speed(int length, int num_of_sections) {	//Class constructor to receive the variables "length" and "num_of_sections" from the class mains
 		validation(length, num_of_sections);	//calling method validation and passing variables "length", "num_of_sections" and "JUnit_test"
 	}
 	

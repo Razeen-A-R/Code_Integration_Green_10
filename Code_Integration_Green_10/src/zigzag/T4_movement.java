@@ -1,9 +1,10 @@
+package zigzag;
 import java.awt.Color;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 public class T4_movement {
-	public T4_movement(int length, int num_of_sections, int motor_speed, int Duration, Finch myFinch) {	//Constructor to receive the variables "length", "num_of_sections", "motor_speed", "Duration" and "myFinch" from the class set_speed
+	public T4_movement(int length, int num_of_sections, int motor_speed, int Duration, Finch myFinch) {	//Constructor to receive the variables "length", "num_of_sections", "motor_speed", "Duration" and "myFinch" from the class set_speeds
 		SimpleDateFormat format = new SimpleDateFormat("HH:mm:ss");	//Format for time recording
 		Date start = new Date();	//Record first time stamp
 		run(num_of_sections, motor_speed, Duration, myFinch);	//Calling the method run and passing the variables "num_of_sections", "motor_speed", "Duration", "myFinch" to it

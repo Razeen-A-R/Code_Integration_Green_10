@@ -1,3 +1,4 @@
+package zigzag;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.*;
@@ -5,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class T4_display_details {
-	public T4_display_details(int length, int num_of_sections, Date start, Date end, SimpleDateFormat format) {	//Constructor to receive the variables "length", "num_of_sections", "start", "end" and "format" from the class movement
+	public T4_display_details(int length, int num_of_sections, Date start, Date end, SimpleDateFormat format) {	//Constructor to receive the variables "length", "num_of_sections", "start", "end" and "format" from the class movements
 		calculations(length, num_of_sections, start, end, format);	//Calling the method calculations and passing the variables "length", "num_of_sections", "start", "end" and "format"
 	}
 	

@@ -1,9 +1,10 @@
+package zigzag;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class T4_main{
-	public T4_main() {		//Constructor to set up components for GUI
+	public T4_main() {		//Constructor to set up components for GUIs
 		frame();	//Calling the method frame
 	}
 	
@@ -13,6 +14,7 @@ public class T4_main{
 		Zigzag.setLayout(null);	//Ensures no default layout is used hence nothing will interfere with the layout I create
 		Zigzag.setResizable(false);	//Removes the user's ability to change the size of the GUI frame
 		length_label(Zigzag);	//Passing the variable "Zigzag" to the method length_label
+		//Zigzag.setDefaultCloseOperation(DISPOSE_ON_CLOSE);	//Used to ensure the integration GUI is not closed when zigzag GUI is closed
 	}
 	
 	private static void length_label(JFrame Zigzag) {	//Method used to create and position a label
@@ -47,7 +49,7 @@ public class T4_main{
 		length_spinner(Zigzag);	//Passing the variable "Zigzag" to the method length_spinner
 		cancel.addActionListener(new ActionListener() {	//Checking if the button "cancel" is clicked
 			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
-				System.exit(0);	//Terminate the program
+				Zigzag.dispose();	//Terminate the program
 			}
 		});
 	}

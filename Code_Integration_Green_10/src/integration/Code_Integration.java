@@ -1,9 +1,12 @@
+package integration;
 import javax.swing.*;
+import navigate.T3_main;
+import search_for_light.T1_main;
+import tilit_control.T7_main;
+import zigzag.T4_main;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 public class Code_Integration {
 	public static void code_integration() {	//Constructor to set up components for GUI
 		window();	//Calling the method frame
@@ -33,7 +36,7 @@ public class Code_Integration {
 		task_2_button(GUI);	//Passing the variable "GUI" to the method task_2_button
 		task_1.addActionListener(new ActionListener() {	//Checking if the button "task_1" is clicked
 			public void actionPerformed(ActionEvent arg0) {	
-                           T1_main.main(null);
+				T1_main.main(null);
 			}
 		});
 	}
@@ -66,7 +69,7 @@ public class Code_Integration {
 				Component frame = null;	//Create an empty frame
 				JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
 				//add your class.method here to start your program
-				T3_main.FinchCourswork.main(null);
+				new T3_main();
 			}
 		});
 	}
@@ -78,7 +81,7 @@ public class Code_Integration {
 		GUI.add(task_4);	//Adding the button "task_4" to the frame "GUI"
 		task_5_button(GUI);	//Passing the variable "GUI" to the method task_5_button
 		task_4.addActionListener(new ActionListener() {	//Checking if the button "task_4" is clicked
-			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
+			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the buttons
 				new T4_main();
 			}
 		});
@@ -109,9 +112,9 @@ public class Code_Integration {
 		task_6.addActionListener(new ActionListener() {	//Checking if the button "task_6" is clicked
 			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
 				//Uncomment the next two lines if you have not made a GUI
-				//Component frame = null;	//Create an empty frame
-				//JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
-				//add your class.method here to start your program
+				Component frame = null;	//Create an empty frame
+				JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
+				new T6_Main();
 			}
 		});
 	}
@@ -124,10 +127,9 @@ public class Code_Integration {
 		window_position(GUI);	//Passing the variable "GUI" to the method "window_position"
 		task_7.addActionListener(new ActionListener() {	//Checking if the button "task_7" is clicked
 			public void actionPerformed(ActionEvent arg0) {	//Giving functionality to the button
-				//Uncomment the next two lines if you have not made a GUI
-				//Component frame = null;	//Create an empty frame
-				//JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
-				//add your class.method here to start your program
+				Component frame = null;	//Create an empty frame
+				JOptionPane.showMessageDialog(frame,"PLease interact with the console","No GUI", JOptionPane.INFORMATION_MESSAGE);	//information for user
+				new T7_main();
 			}
 		});
 	}
