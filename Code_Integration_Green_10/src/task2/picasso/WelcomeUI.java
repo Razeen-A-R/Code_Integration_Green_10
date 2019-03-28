@@ -36,7 +36,7 @@ public class WelcomeUI extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -82,6 +82,8 @@ public class WelcomeUI extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        
+        
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/task2/resources/bbr-fr-1.jpg"))); // NOI18N
 
