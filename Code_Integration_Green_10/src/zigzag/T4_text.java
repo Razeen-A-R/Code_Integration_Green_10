@@ -1,9 +1,10 @@
+package zigzag;
 import java.awt.Component;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import javax.swing.JOptionPane;
 public class T4_text {
-	public T4_text(int path_traversed, int straight_line, long min, long sec, String s_time, String e_time) {	//Constructor to receive the variables "path_traversed", "straight_line", "min", "sec", "s_time", "e_time" from the class display_details
+	public T4_text(int path_traversed, int straight_line, long min, long sec, String s_time, String e_time) {	//Constructor to receive the variables "path_traversed", "straight_line", "min", "sec", "s_time", "e_time" from the class display_detailss
 		String fileName = "Run Details.txt";	//This string will be used as the file name
 		try {	//Try the following in the case of no errors execute the following
 			PrintWriter outputStream = new PrintWriter(fileName);	//Create a file with the name of variable "fileName"

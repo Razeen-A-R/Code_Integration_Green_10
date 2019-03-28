@@ -1,4 +1,4 @@
-
+package search_for_light;
 import java.util.Scanner;
 
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
@@ -9,7 +9,7 @@ public class T1_main {
 	private static Finch myFinch = null;
 	
 	public static int MaxLightSensor;
-	static ArrayList<Long>TStart = new ArrayList<Long>();
+	static ArrayList<Long>TStart = new ArrayList<Long>();//
 	public static int LeftLightSensor;
 	public static int RightLightSensor;
 	public static int MinLightSensor;
