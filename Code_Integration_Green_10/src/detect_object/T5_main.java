@@ -1,12 +1,12 @@
 package detect_object;
+
 import java.util.Random;
 
 import javax.swing.JOptionPane;
-
 import edu.cmu.ri.createlab.terk.robot.finch.Finch;
 
-public class T5_main{ //start of class
-		
+public class T5_main { //start of class
+
 		static Finch myf = null; //initialise the finch as null
 		
 		static String modeChosen; //initialise modeChosen as string (stores the mode chosen by the user)

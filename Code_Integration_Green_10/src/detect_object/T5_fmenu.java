@@ -20,10 +20,11 @@ public class T5_fmenu { //start of class
 		return n; //returns n
 	} //end of method
 	
+	@SuppressWarnings("deprecation")
 	public static void ExitMenu() //method for ExitMenu
 	{
 		JOptionPane.showMessageDialog(null, "Exiting Program", "Assignment 2 - Exit", JOptionPane.INFORMATION_MESSAGE, null); //dialog box displays exiting program
-		System.exit(0); //exits the system
+		Thread.currentThread().stop();
 	} //end of method
 	
 } //end of class
