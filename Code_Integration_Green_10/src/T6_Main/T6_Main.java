@@ -81,11 +81,7 @@ T6();
 
         myFinch.setLED(red, green, blue);
 
-        System.out.println("Red: " + red);
 
-        System.out.println("Green: " + green);
-
-        System.out.println("Blue: " + blue);
 
       //for loop to read binary right to left and then move at speed depending on the oct value
 
