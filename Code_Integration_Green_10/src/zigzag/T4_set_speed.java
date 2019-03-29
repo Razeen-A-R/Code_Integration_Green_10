@@ -43,4 +43,4 @@ public class T4_set_speed {
 			myFinch.quit();	//End connection with finch
 		}
 	}
-}
+}//

@@ -38,6 +38,6 @@ public class T7_main {
  if(myfinch.isFinchLevel()==false){
   System.out.println("error");
  }
- }
+ }//
 }
 

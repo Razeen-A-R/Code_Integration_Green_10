@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class T4_main{
 	public T4_main() {		//Constructor to set up components for GUIs
 		frame();	//Calling the method frame
-	}
+	}//
 	
 	public static void frame() {	//Method used to construct frame
 		JFrame Zigzag = new JFrame("Task 4: Zigzag");	//Creates a frame and sets its title

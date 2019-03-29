@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class T4_display_details {
 	public T4_display_details(int length, int num_of_sections, Date start, Date end, SimpleDateFormat format) {	//Constructor to receive the variables "length", "num_of_sections", "start", "end" and "format" from the class movements
 		calculations(length, num_of_sections, start, end, format);	//Calling the method calculations and passing the variables "length", "num_of_sections", "start", "end" and "format"
-	}
+	}//
 	
 	private static void calculations(int length, int num_of_sections, Date start, Date end, SimpleDateFormat format) {	//Method to perform calculations for the details of the run
 		int path_traversed = (length*num_of_sections);	//Calculates the distance in cm of the journey one way

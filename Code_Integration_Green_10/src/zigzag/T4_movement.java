@@ -50,4 +50,4 @@ public class T4_movement {
 		myFinch.setWheelVelocities(motor_speed,motor_speed,Duration);	//Setting finch wheel speed
 		myFinch.setWheelVelocities(100,-100,1250);	//Setting finch wheel speed for 90 degree turn
 	}
-}
+}//
