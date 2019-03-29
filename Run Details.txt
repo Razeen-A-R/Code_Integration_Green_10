@@ -1,0 +1,6 @@
+The length of the path traversed by the finch was 40
+The straight line distance between the start and end of the zigzag was 28
+The start time was 08:12:43
+The end time was 08:12:56
+Time taken in seconds was 13
+Time taken in minutes was 0
